@@ -1,0 +1,237 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:wght@500;700&family=Ribeye&family=Roboto:wght@400;500&display=swap');
+
+/* font-family: "Gelasio",serif;
+font-family: "Ribeye", serif;
+font-family: "Roboto",sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration:none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+
+}
+
+.bg-orange {
+    background: #C9453B;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.ff-gelassio {
+    font-family: "Gelasio", serif;
+    font-weight: 500;
+}
+
+.inner-title {
+    font-size: 43px;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.inner-subtitle {
+    opacity: 0.6;
+    text-align: center;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #000;
+}
+
+
+.header {
+    background: rgba(0, 0, 0, 0.3) url(../img/Background/Man_with_telescope.jpg) no-repeat center;
+    background-size: cover;
+    padding: 35px 0 244px 0;
+}
+
+.container {
+    max-width: 1145px;
+    margin: 0 auto;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.header-logo {
+    font-family: "Ribeye", serif;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-list + .menu-list {
+    margin-left: 50px;
+}
+
+.menu-link:hover {
+    text-decoration: underline;
+}
+
+.btn-header {
+    display: block;
+    width: 163px;
+    padding: 14px 0 13px 0;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.btn-header:hover {
+    opacity: 0.75;
+}
+
+.header-bottom {
+    margin-top: 250px;
+}
+
+.header-bottom-title {
+    font-family: "Gelasio", serif;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 78px;
+    color: #fff;
+    width: 804px;
+}
+
+.header-bottom-text {
+    color: #fff;
+    width: 458px;
+    margin: 30px 0 40px 0;
+}
+
+.header-bottom-link {
+    display: block;
+    width: 187px;
+    text-align: center;
+    padding: 18px 0 17px 0;
+    transition: all 0.3s ease;
+
+}
+
+.header-bottom-link:hover {
+    opacity: 0.8;
+}
+
+
+/*----------------------- Section - location -----------------------*/
+.location {
+    padding: 140px 0;
+}
+
+.location-subtitle {
+    width: 735px;
+    margin: 0 auto;
+}
+
+.location-wrapper {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.location-block {
+    width: 360px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.location-block:hover {
+   box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.15);
+}
+
+.location-block-title {
+    font-size: 24px;
+    line-height: 36px;
+    margin: 35px 0 10px 0;
+}
+
+
+.location-block:first-child .location-block-text {
+    padding: 0 27px 33px 27px;
+    opacity: 0.6;
+}
+
+.location-block:nth-child(2) .location-block-text {
+    padding: 0 34px 33px 37px;
+    opacity: 0.6;
+}
+
+.location-block:last-child .location-block-text {
+    padding: 0 13px 33px 13px;
+    opacity: 0.6;
+}
+
+/*----------------------- Section - slider -----------------------*/
+.slider {
+    padding-bottom: 57px;
+}
+
+.slider-subtitle {
+    width: 656px;
+    margin: 0 auto 60px auto;
+}
+
+.sliders {
+    display: flex;
+}
+
+.sliders__block {}
+
+.sliders__block-wrapper {
+    width: 262px;
+}
+
+.sliders_block-title {
+    font-size: 24px;
+    line-height: 36px;
+    margin: 20px 0 8px 0;
+}
+
+.sliders__block-location {}
+
+.sliders__block-star {}
+
+.sliders__block-booking {}
+
+.sliders__block-price {}
