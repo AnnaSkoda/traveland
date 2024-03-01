@@ -256,7 +256,7 @@ body {
 }
 
 .slider-subtitle {
-    width: 656px;
+    max-width: 656px;
     margin: 0 auto 60px auto;
 }
 
@@ -297,7 +297,6 @@ body {
     background: url(../img/Special_Offers/location.svg);
 }
 
-
 .sliders__block-star {
     padding-left: 34px;
     background: url(../img/Special_Offers/Star\ 2.svg) no-repeat left center;
@@ -326,12 +325,12 @@ body {
 
 .btn-slick-prev {
     bottom: -55px;
-    left: 31%;
+    left: 28%;
 }
 
 .btn-slick-next{
     bottom: -55px;
-    right: 31%;
+    right: 28%;
 }
 
 .slick-dots {
@@ -448,6 +447,8 @@ body {
 .footer_wrapper{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 30px;
 }
 
 .footer__logo {
