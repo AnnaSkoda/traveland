@@ -7,4 +7,10 @@ $(document).ready(function () {
     prevArrow:"<button type='button' class='btn-slick-prev btn btn-slider'><img src='img/Special_Offers/arrows-left.svg' alt='prev'></button>",
     nextArrow:"<button type='button' class='btn-slick-next btn btn-slider'><img src='img/Special_Offers/arrows-right.svg' alt='next'></button>"
     });
+
+    $(".mobile-menu").click(function () {
+        $(".mobile-menu span").toggleClass('active');
+        $(".menu").toggleClass('active');
+        $("body").toggleClass('owerlay');
+    })
 });
