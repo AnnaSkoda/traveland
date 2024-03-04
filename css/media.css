@@ -41,9 +41,6 @@
     .footer {
         padding: 70px 10px 70px 10px;
     }
-
-
-
 }
 
 @media(max-width:980px) {
@@ -59,7 +56,7 @@
         right: 0;
         top: 0;
         bottom: 0;
-        overflow: hidden;
+        /* overflow: hidden; */
     }
     .menu {
         background: #fff;
@@ -127,7 +124,7 @@
     .footer {
         padding: 50px 10px 50px 10px;
     }
-    
+
     .footer__form {
        width: 100%;
        justify-content: center;

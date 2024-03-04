@@ -54,7 +54,21 @@ $(document).ready(function () {
 
     $(".mobile-menu").click(function () {
         $(".mobile-menu span").toggleClass('active');
+        $(".nav").toggleClass('open');
         $(".menu").toggleClass('active');
         $("body").toggleClass('owerlay');
+    });
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 99) {
+            $('.header-top').addClass('header-top__fixed' )
+        } else {
+            $('.header-top').removeClass('header-top__fixed')
+        }
     })
+
+});
+
+AOS.init({
+    duration:1200,
 });
